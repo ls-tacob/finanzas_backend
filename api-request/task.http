@@ -1,0 +1,14 @@
+### registrat tareas como objetos
+POST {{host}}/tasks
+Accept: application/json
+
+{
+"id":1,
+"title":"task 1",
+"description":"primera tarea sencilla",
+"status":true
+}
+
+###get tareas
+GET {{host}}/tasks
+Accept: application/json
