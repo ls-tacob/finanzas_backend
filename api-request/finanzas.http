@@ -1,0 +1,3 @@
+### Obtener Resumen Financiero
+GET {{host}}/finanzas
+Accept: application/json
